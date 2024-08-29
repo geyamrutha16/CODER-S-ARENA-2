@@ -5,64 +5,64 @@ const Resources = () => {
     return (
         <div>
             <div className="fluid blink-in">
-                <h2 className="display-6" style={{ textAlign: "center", marginTop: "100px" }}>Resources</h2>
-                <hr style={{ border: '3px solid #4f46e5', margin: '20px 35%', textAlign: "center", width: "30%" }} />
-            </div >
+                <h2 className="display-6" style={{ textAlign: "center", marginTop: "6.25rem" }}>Resources</h2>
+                <hr style={{ border: '0.1875rem solid #4f46e5', margin: '1.25rem 22%', textAlign: "center", width: "30%" }} />
+            </div>
             <div className="row">
                 <div className="col">
                     <div className="tabs">
                         <div className="tab">
                             <input type="checkbox" id="chck1" />
                             <label className="tab-label" htmlFor="chck1">week 1</label>
-                            <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>Added Soon..!</button>
-                                {/* <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button> */}
+                            <div className="tab-content" style={{ padding: "1.25rem" }}>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>Added Soon..!</button>
+                                {/* <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 2</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 3</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 4</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 5</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 6</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 7</button> */}
                             </div>
                         </div>
                         <div className="tab">
                             <input type="checkbox" id="chck2" />
                             <label className="tab-label" htmlFor="chck2">week 2</label>
-                            <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>Added Soon..!</button>
-                                {/* <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button> */}
+                            <div className="tab-content" style={{ padding: "1.25rem" }}>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>Added Soon..!</button>
+                                {/* <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 2</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 3</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 4</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 5</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 6</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 7</button> */}
                             </div>
                         </div>
                         {/* <div className="tab">
                             <input type="checkbox" id="chck3" />
                             <label className="tab-label" htmlFor="chck3">week 3</label>
-                            <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button>
+                            <div className="tab-content" style={{ padding: "1.25rem" }}>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 2</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 3</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 4</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 5</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 6</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 7</button>
                             </div>
                         </div>
                         <div className="tab">
                             <input type="checkbox" id="chck4" />
                             <label className="tab-label" htmlFor="chck4">week 4</label>
-                            <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button>
+                            <div className="tab-content" style={{ padding: "1.25rem" }}>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 2</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 3</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 4</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 5</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 6</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "1.25rem" }}>DAY 7</button>
                             </div>
                         </div> */}
                     </div>
@@ -73,6 +73,7 @@ const Resources = () => {
 };
 
 export default Resources;
+
 
 
 /* import React, { useState } from 'react';

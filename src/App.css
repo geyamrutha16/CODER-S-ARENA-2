@@ -119,7 +119,7 @@ html {
 
 .card {
   position: relative;
-  height: 20rem;
+  height: 15rem;
   width: 100%;
   transition: ease all 2.3s;
   perspective: 75rem;
@@ -195,13 +195,13 @@ html {
 .cardh1 {
   font-weight: 600;
   position: absolute;
-  bottom: 3.4375rem; /* 55px to rem */
-  left: 3.125rem; /* 50px to rem */
+  bottom: 2.3375rem; /* 55px to rem */
+  left: 5.825rem; /* 50px to rem */
   color: white;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 3;
-  font-size: 3em; /* This can stay as is unless you prefer to use rem for consistency */
+  font-size: 2em; /* This can stay as is unless you prefer to use rem for consistency */
   transform: translateZ(0);
 }
 
@@ -272,7 +272,7 @@ p:not(:last-child) {
 
 .card1 {
   max-width: 25rem; /* 500px to rem (500/20) */
-  height: 20rem; /* 400px to rem (400/20) */
+  height: 15rem; /* 400px to rem (400/20) */
   padding: 1.75rem; /* 35px to rem (35/20) */
   border: 0.05rem solid rgba(255, 255, 255, 0.25); /* 1px to rem (1/20) */
   border-radius: 1rem; /* 20px to rem (20/20) */

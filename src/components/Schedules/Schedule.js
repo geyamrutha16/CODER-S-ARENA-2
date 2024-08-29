@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Schedule.css';
 import '../../App.css';
 
-
 const eventsData = {
     "2024-08-30": [{ id: 1, name: "Club Inauguration" }],
 };
@@ -41,16 +40,16 @@ const CalendarComponent = () => {
         <div className="calendar blink-in">
             {/* Section 1: Year and Month Selection */}
             <div className="year-month">
-                <h1 style={{ fontWeight: "bold", marginTop: "4%", marginBottom: "7%" }}>Year & Month</h1>
+                <h1 className="yearh" style={{ fontWeight: "bold", marginTop: "1.75rem", marginBottom: "2.375rem", fontSize: "1rem" }}>Year & Month</h1>
                 <div className="select">
                     <h2>Select Year : &nbsp; </h2>
                     <select value={selectedYear} onChange={handleYearChange}
                         style={{
-                            padding: '5px',
-                            borderRadius: '5px',
-                            border: '1px solid #ccc',
+                            padding: '0.1125rem',
+                            borderRadius: '0.3125rem',
+                            border: '0.0625rem solid #ccc',
                             backgroundColor: '#f9f9f9',
-                            fontSize: '19px',
+                            fontSize: '1.0875rem',
                             color: '#333',
                         }}>
                         {[2022, 2023, 2024, 2025].map(year => (
@@ -63,11 +62,11 @@ const CalendarComponent = () => {
                     <h2>Select Month : &nbsp; </h2>
                     <select value={selectedMonth} onChange={handleMonthChange}
                         style={{
-                            padding: '5px',
-                            borderRadius: '5px',
-                            border: '1px solid #ccc',
+                            padding: '0.1125rem',
+                            borderRadius: '0.3125rem',
+                            border: '0.0625rem solid #ccc',
                             backgroundColor: '#f9f9f9',
-                            fontSize: '19px',
+                            fontSize: '1.0875rem',
                             color: '#333',
                         }}>
                         {[...Array(12).keys()].map(month => (
@@ -79,11 +78,11 @@ const CalendarComponent = () => {
                 </div>
             </div>
 
-            <div className="vr" style={{ marginRight: "8%" }}></div>
+            <div className="vr" style={{ marginRight: "5rem" }}></div>
 
             {/* Section 2: Month Display */}
             <div className="card month-display" style={{ paddingLeft: "1rem" }}>
-                <h1 className="calhead" style={{ fontWeight: "bold", marginBottom: "8%" }}>{new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })} {selectedYear}</h1>
+                <h1 className="calhead" style={{ fontWeight: "bold", marginBottom: "2rem", fontSize: "1rem" }}>{new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })} {selectedYear}</h1>
                 <div className="days-grid">
                     {[...Array(daysInMonth(selectedYear, selectedMonth)).keys()].map(day => (
                         <div
@@ -97,11 +96,11 @@ const CalendarComponent = () => {
                 </div>
             </div>
 
-            <div className="vr" style={{ marginLeft: "10%" }}></div>
+            <div className="vr" style={{ marginLeft: "6.25rem" }}></div>
 
             {/* Section 3: Event Display */}
-            <div className="events-display" style={{ paddingLeft: "50px" }}>
-                <h1 style={{ fontWeight: "bold", marginBottom: "8%" }}>
+            <div className="events-display" style={{ paddingLeft: "3.125rem" }}>
+                <h1 style={{ fontWeight: "bold", marginBottom: "2rem", marginTop: "1.5rem", fontSize: "1rem" }}>
                     Events on {selectedDate ? `${selectedDate} ${new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })}` : 'Selected Date'}
                 </h1>
                 {events.length > 0 ? (

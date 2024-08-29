@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import Instructors from './Instructors';
 import Nav from './Nav';
-import '../../App.css'
+import '../../App.css';
 import image from './dm.svg';
 import Footer from './Footer';
 
 const Home = () => {
     const [Open1, setOpen1] = useState(false);
     const [loading, setLoading] = useState(false);
-
 
     useEffect(() => {
         if (loading) {
@@ -31,8 +30,8 @@ const Home = () => {
                 <div className="box blink-in" id='home'>
                     <div className="homebox">
                         <div className="container">
-                            <h1 className="display-6" style={{ fontWeight: 'bold', marginLeft: "8%" }}>Inspire. Innovate. Code.</h1>
-                            <div className="typewriter" style={{ marginTop: '40px', marginLeft: "8%" }}>
+                            <h1 className="display-6" style={{ fontWeight: 'bold', marginLeft: '0.5rem' }}>Inspire. Innovate. Code.</h1>
+                            <div className="typewriter" style={{ marginTop: '2.5rem', marginLeft: '0.5rem' }}>
                                 <h2 className="display-6">
                                     <Typewriter
                                         words={[
@@ -51,16 +50,16 @@ const Home = () => {
                                     />
                                 </h2>
                             </div>
-                            <button type="button" id="button" className="btn btn-outline-primary" style={{ marginTop: '50px', marginLeft: "8%" }}>
+                            <button type="button" id="button" className="btn btn-outline-primary" style={{ marginTop: '3.125rem', marginLeft: '0.5rem' }}>
                                 <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                             </button>
                         </div>
                         <div className="container" id="image">
-                            <img src={image} style={{ marginTop: "5%" }} alt='background' />
+                            <img src={image} style={{ marginTop: '0.3125rem' }} alt='background' />
                         </div>
                     </div>
                 </div>
-                <h1 className="display-5" style={{ fontWeight: 'bold', textAlign: "center", marginTop: "80px" }}>Our Mission</h1>
+                <h1 className="display-5" style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '5rem' }}>Our Mission</h1>
                 <div className="aboutbox" id="mission" ref={missionRef}>
                     <div className="aboutdes">
                         <div className="col-md-4 col-sm-6 col-xs-12">
@@ -75,13 +74,12 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="card1">
-                            <p classname="aboutp">Welcome to <strong>Coder's Arena!</strong> Our mission is to inspire the next
+                            <p className="aboutp">Welcome to <strong>Coder's Arena!</strong> Our mission is to inspire the next
                                 generation of tech innovators by providing a platform for students to explore
                                 the world of programming. We offer hands-on learning experiences.
                                 The Coder's Club 2024 aims to create a thriving environment where students can enhance
-                                their coding skills, participate in various coding challenges, Coding Classes
-                                and stay updated with the latest trends in tech.</p>
-                            <p className="card1-footer" style={{ color: "royalblue" }}>
+                                their coding skills.</p>
+                            <p className="card1-footer" style={{ color: 'royalblue' }}>
                                 <Typewriter
                                     words={[
                                         "Coder's Club 2024"
@@ -105,4 +103,3 @@ const Home = () => {
 }
 
 export default Home;
-

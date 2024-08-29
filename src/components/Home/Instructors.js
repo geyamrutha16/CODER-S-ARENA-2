@@ -6,52 +6,52 @@ const Instructors = () => {
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "President",
-            title2: "Ajay",
+            title2: "Card title 1",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Vice President",
-            title2: "Geyamrutha",
+            title2: "Card title 2",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Secretary",
-            title2: "Varshitha",
+            title2: "Card title 3",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Treasurer",
-            title2: "Ganesh",
+            title2: "Card title 4",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Designer",
-            title2: "Jishnu Vardhan",
+            title1: "Member",
+            title2: "Card title 5",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Web Master",
-            title2: "Sai Rekha",
+            title1: "Member",
+            title2: "Card title 6",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Web Master",
-            title2: "Chandini",
+            title1: "Member",
+            title2: "Card title 7",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Event Manager",
-            title2: "Gayathri",
+            title1: "Member",
+            title2: "Card title 8",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Event Manager",
-            title2: "Divya",
+            title1: "Member",
+            title2: "Card title 9",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Event Manager",
-            title2: "Mohammed Zaid",
+            title1: "Member",
+            title2: "Card title 10",
         }
     ];
 
@@ -79,8 +79,8 @@ const Instructors = () => {
                         data-bs-interval="3000"
                         style={{ width: '500px', height: "auto" }}
                     >
-                        <div className="cardbox">
-                            <div className="card">
+                        <div className="cardbox" >
+                            <div className="card" style={{ height: "20rem" }}>
                                 <img src={slide.imgSrc} className="card-img-top" alt="..." style={{ width: "200px", height: "230px", borderRadius: "50%", paddingTop: "10px" }} />
                                 <div className="card-body">
                                     <h1 className="card-title" style={{ fontWeight: "bold", letterSpacing: "4px" }}>{slide.title1}</h1>
@@ -104,10 +104,3 @@ const Instructors = () => {
 }
 
 export default Instructors;
-
-
-
-
-
-
-

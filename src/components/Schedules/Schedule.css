@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   padding: 1.25rem; /* 20px */
-  margin-top: 1.875rem; /* 12% */
+  margin-top: 6.375rem; /* 12% */
   background-color: aliceblue;
   border-radius: 0.625rem; /* 10px */
   box-shadow: rgba(13, 28, 232, 0.24) 0 0.1875rem 0.5rem; /* 3px 8px */
@@ -118,11 +118,15 @@ select:hover {
     background-image: url(../../assets/mobilegif.gif);
   }
 
+  .yearh {
+    margin-top: 1rem;
+  }
+
   .year-month,
   .month-display,
   .events-display {
     width: 100%; /* Keeping percentage */
-    margin: 0.1rem 0; /* 10px 0 */
+    margin: 0rem 0; /* 10px 0 */
   }
 
   .month-display {
