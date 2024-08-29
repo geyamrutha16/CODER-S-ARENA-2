@@ -4,24 +4,24 @@ import '../../App.css';
 
 const JoinNow = () => {
     return (
-        <>
-            <div className="wrapper blink-in">
-                <form action="#" className="card-content">
-                    <div className="container">
-                        <div className="image">
-                            <i className="fas fa-envelope"></i>
-                        </div>
-                        <h1>Join Now</h1>
-                        <p>Join the Coder's Club Today and Unlock a World of Coding Opportunities!</p>
+        <div className="wrapper">
+            <form action="#" className="card-content">
+                <div className="container">
+                    <div className="image">
+                        <i className="fas fa-envelope"></i>
                     </div>
-                    <div className="form-input">
-                        <label htmlFor="email"></label>
-                        <button className="subscribe-btn">Join Now</button>
-                    </div>
-                </form>
-            </div>
-        </>
+                    <h1>Subscribe</h1>
+                    <p style={{ textAlign: "center" }}>Subscribe to our newsletter and stay updated.</p>
+                </div>
+                <div className="form-input">
+                    <label htmlFor="email"></label>
+                    <input type="email" placeholder="Your Email" />
+                    <button className="subscribe-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
     );
+
 };
 
 export default JoinNow;

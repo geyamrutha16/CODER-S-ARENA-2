@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 70px;
-  margin-inline: 30px;
+  margin-top: 3.5rem; /* 70px to rem (70/20) */
+  margin-inline: 1.5rem; /* 30px to rem (30/20) */
 }
 
 .service-card p {
@@ -12,20 +12,20 @@
 }
 
 .service-card {
-  width: 300px;
-  padding: 30px;
+  width: 15rem; /* 300px to rem (300/20) */
+  padding: 1.5rem; /* 30px to rem (30/20) */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: rgba(47, 7, 248, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  border-radius: 20px;
+  box-shadow: rgba(47, 7, 248, 0.1) 0px 0.5rem 0.75rem -0.15rem,
+    rgba(0, 0, 0, 0.05) 0px 0.2rem 0.3rem -0.1rem;
+  border-radius: 1.25rem; /* 20px to rem (20/20) */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
-  box-shadow: rgba(5, 44, 239, 0.24) 10px 15px 10px;
+  box-shadow: rgba(5, 44, 239, 0.24) 0.5rem 0.75rem 0.5rem; /* 10px 15px 10px */
 }
 
 .service-card:hover .service-card img {
@@ -33,21 +33,23 @@
 }
 
 .service-card img {
-  height: 200px;
+  height: 10rem; /* 200px to rem (200/20) */
   transition: transform 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  /* 768px to rem (768/16) */
   .service,
   .service-card {
     flex-direction: column;
-    margin-block: 30px;
+    margin-block: 1.5rem; /* 30px to rem (30/20) */
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 23.8rem) {
+  /* 380px to rem (380/16) */
   .service {
     flex-direction: column;
-    margin-block: 30px;
+    margin-block: 1.5rem; /* 30px to rem (30/20) */
   }
 }

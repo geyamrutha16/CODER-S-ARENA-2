@@ -82,7 +82,7 @@ const CalendarComponent = () => {
             <div className="vr" style={{ marginRight: "8%" }}></div>
 
             {/* Section 2: Month Display */}
-            <div className="card month-display" style={{ paddingLeft: "50px" }}>
+            <div className="card month-display" style={{ paddingLeft: "1rem" }}>
                 <h1 className="calhead" style={{ fontWeight: "bold", marginBottom: "8%" }}>{new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })} {selectedYear}</h1>
                 <div className="days-grid">
                     {[...Array(daysInMonth(selectedYear, selectedMonth)).keys()].map(day => (

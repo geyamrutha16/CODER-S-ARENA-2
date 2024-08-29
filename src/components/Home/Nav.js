@@ -67,7 +67,7 @@ const Nav = () => {
                         <div onClick={() => setOpen1(!open1)} className="text-3xl cursor-pointer md:hidden">
                             <ion-icon
                                 name={open1 ? 'close' : 'menu'}
-                                style={{ marginTop: '10px' }}
+                                style={{ fontSize: "1.8rem", marginTop: "0.51rem" }}
                             ></ion-icon>
                         </div>
 

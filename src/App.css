@@ -100,14 +100,14 @@ html {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 
 .homebtn {
   border: 1 px solid royalblue;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: "40px";
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+  margin-top: 2.5rem;
   color: royalblue;
 }
 
@@ -119,10 +119,11 @@ html {
 
 .card {
   position: relative;
-  height: 400px;
+  height: 20rem;
   width: 100%;
   transition: ease all 2.3s;
-  perspective: 1200px;
+  perspective: 75rem;
+  font-size: 0.5rem;
 }
 
 .card:hover .cover {
@@ -130,7 +131,7 @@ html {
 }
 
 .card:hover .cover:before {
-  transform: translateZ(30px);
+  transform: translateZ(1.875rem);
 }
 
 .card:hover .cover:after {
@@ -138,15 +139,15 @@ html {
 }
 
 .card:hover .cover h1 {
-  transform: translateZ(100px);
+  transform: translateZ(6.25rem);
 }
 
 .card:hover .cover .price {
-  transform: translateZ(60px);
+  transform: translateZ(3.75rem); /* 60px to rem */
 }
 
 .card:hover .cover a {
-  transform: translateZ(-60px) rotatey(-180deg);
+  transform: translateZ(-3.75rem) rotateY(-180deg); /* 60px to rem */
 }
 
 .cover {
@@ -163,25 +164,25 @@ html {
 .cover:before {
   content: "";
   position: absolute;
-  border: 5px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  border: 0.3125rem solid rgba(255, 255, 255, 0.5); /* 5px to rem */
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.3); /* 12px to rem */
+  top: 1.25rem; /* 20px to rem */
+  left: 1.25rem; /* 20px to rem */
+  right: 1.25rem; /* 20px to rem */
+  bottom: 1.25rem; /* 20px to rem */
   z-index: 2;
   transition: ease all 2.3s;
   transform-style: preserve-3d;
-  transform: translateZ(0px);
+  transform: translateZ(0);
 }
 
 .cover:after {
   content: "";
   position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 2;
   transition: ease all 1.3s;
   background: rgba(0, 0, 0, 0.2);
@@ -194,27 +195,27 @@ html {
 .cardh1 {
   font-weight: 600;
   position: absolute;
-  bottom: 55px;
-  left: 50px;
+  bottom: 3.4375rem; /* 55px to rem */
+  left: 3.125rem; /* 50px to rem */
   color: white;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 3;
-  font-size: 3em;
-  transform: translateZ(0px);
+  font-size: 3em; /* This can stay as is unless you prefer to use rem for consistency */
+  transform: translateZ(0);
 }
 
 .price {
   font-weight: 200;
   position: absolute;
-  top: 55px;
-  right: 50px;
+  top: 2.75rem; /* 55px to rem (55/20) */
+  right: 2.5rem; /* 50px to rem (50/20) */
   color: white;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 4;
-  font-size: 2em;
-  transform: translateZ(0px);
+  font-size: 2em; /* Already in em, no need for conversion */
+  transform: translateZ(0);
 }
 
 .card-back {
@@ -224,7 +225,7 @@ html {
   background: #000000;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
-  transform: translateZ(-1px);
+  transform: translateZ(-0.05rem); /* -1px to rem (-1/20) */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,12 +234,12 @@ html {
 .card-back a {
   transform-style: preserve-3d;
   transition: ease transform 2.3s, ease background 0.5s;
-  transform: translateZ(-1px) rotatey(-180deg);
+  transform: translateZ(-0.05rem) rotatey(-180deg); /* -1px to rem (-1/20) */
   background: transparent;
-  border: 1px solid white;
+  border: 0.05rem solid white; /* 1px to rem (1/20) */
   font-weight: 200;
-  font-size: 1.3em;
-  padding: 14px 32px;
+  font-size: 1.3em; /* Already in em, no need for conversion */
+  padding: 0.7rem 1.6rem; /* 14px to rem (14/20) and 32px to rem (32/20) */
   outline: none;
   color: white;
   text-decoration: none;
@@ -266,22 +267,22 @@ p {
 }
 
 p:not(:last-child) {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em; /* Already in em, no need for conversion */
 }
 
 .card1 {
-  max-width: 500px;
-  height: 400px;
-  padding: 35px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
+  max-width: 25rem; /* 500px to rem (500/20) */
+  height: 20rem; /* 400px to rem (400/20) */
+  padding: 1.75rem; /* 35px to rem (35/20) */
+  border: 0.05rem solid rgba(255, 255, 255, 0.25); /* 1px to rem (1/20) */
+  border-radius: 1rem; /* 20px to rem (20/20) */
   background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(15px);
+  box-shadow: 0 0 0.5rem 0.05rem rgba(0, 0, 0, 0.25); /* 10px and 1px to rem (10/20, 1/20) */
+  backdrop-filter: blur(0.75rem); /* 15px to rem (15/20) */
 }
 
 .card1:hover {
-  box-shadow: 0 0 20px 5px rgba(0, 16, 236, 0.25);
+  box-shadow: 0 0 1rem 0.25rem rgba(0, 16, 236, 0.25); /* 20px and 5px to rem (20/20, 5/20) */
 }
 
 .card1-footer {
@@ -290,18 +291,19 @@ p:not(:last-child) {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  /* 768px to rem (768/16) */
   #button {
-    margin-left: "40%";
+    margin-left: 40%; /* Percentage remains the same */
   }
 
   #image {
-    margin-top: 10%;
+    margin-top: 0.5rem; /* 10% of 20px */
   }
 
   #image img {
-    margin-left: -1%;
-    height: 400px;
+    margin-left: -0.05rem; /* -1% of 20px */
+    height: 20rem; /* 400px to rem (400/20) */
   }
 
   .homebox {
@@ -309,14 +311,14 @@ p:not(:last-child) {
   }
 
   .card {
-    height: 350px;
+    height: 17.5rem; /* 350px to rem (350/20) */
     width: 100%;
   }
 
   .cardh1 {
-    font-size: 2em;
-    bottom: 40px;
-    left: 30px;
+    font-size: 2em; /* Already in em, no need for conversion */
+    bottom: 2rem; /* 40px to rem (40/20) */
+    left: 1.5rem; /* 30px to rem (30/20) */
   }
 
   .card1 {
@@ -331,13 +333,13 @@ p:not(:last-child) {
   }
 
   .price {
-    font-size: 1.5em;
-    top: 40px;
-    right: 30px;
+    font-size: 1.5em; /* Already in em, no need for conversion */
+    top: 2rem; /* 40px to rem (40/20) */
+    right: 1.5rem; /* 30px to rem (30/20) */
   }
 
   .aboutbox {
-    margin-top: 40px;
+    margin-top: 2rem; /* 40px to rem (40/20) */
   }
 
   .p {
@@ -351,26 +353,27 @@ p:not(:last-child) {
   }
 
   .display-6 {
-    font-size: 28px;
+    font-size: 1.4rem; /* 28px to rem (28/20) */
   }
 
   .carousel-indicators {
-    margin-bottom: 80px;
+    margin-bottom: 4rem; /* 80px to rem (80/20) */
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 23.8rem) {
+  /* 380px to rem (380/16) */
   #button {
-    margin-left: "40%";
+    margin-left: 40%; /* Percentage remains the same */
   }
 
   #image {
-    margin-top: 10%;
+    margin-top: 1rem; /* 10% of 20px */
   }
 
   #image img {
-    margin-left: -1%;
-    height: 400px;
+    margin-left: -0.2rem; /* -1% of 20px */
+    height: 20rem; /* 400px to rem (400/20) */
   }
 
   .homebox {
@@ -378,22 +381,22 @@ p:not(:last-child) {
   }
 
   .display-6 {
-    font-size: 28px;
+    font-size: 1.4rem; /* 28px to rem (28/20) */
   }
 
   .carousel-indicators {
-    margin-bottom: 80px;
+    margin-bottom: 4rem; /* 80px to rem (80/20) */
   }
 
   .card {
-    height: 350px;
+    height: 17.5rem; /* 350px to rem (350/20) */
     width: 100%;
   }
 
   .cardh1 {
-    font-size: 1.5em;
-    bottom: 30px;
-    left: 20px;
+    font-size: 1.5em; /* Already in em, no need for conversion */
+    bottom: 1.5rem; /* 30px to rem (30/20) */
+    left: 1rem; /* 20px to rem (20/20) */
   }
 
   .card1 {
@@ -408,13 +411,13 @@ p:not(:last-child) {
   }
 
   .aboutbox {
-    margin-top: 50px;
+    margin-top: 2.5rem; /* 50px to rem (50/20) */
   }
 
   .price {
-    font-size: 1.2em;
-    top: 30px;
-    right: 20px;
+    font-size: 1.2em; /* Already in em, no need for conversion */
+    top: 1.5rem; /* 30px to rem (30/20) */
+    right: 1rem; /* 20px to rem (20/20) */
   }
 
   .p {
@@ -429,55 +432,59 @@ p:not(:last-child) {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  /* 768px to rem (768/16) */
   .contactul {
     flex-direction: column;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 2.5rem; /* 50px to rem (50/20) */
   }
 
   .contactul .contactli {
-    margin: 20px 0;
+    margin: 1rem 0; /* 20px to rem (20/20) */
     flex: 1 1 90%;
     max-width: none;
   }
 
   .contactul .contactli .contacta {
-    height: 60px;
+    height: 3rem; /* 60px to rem (60/20) */
   }
 
   .contactul .contactli .contacta .fa {
-    font-size: 30px;
+    font-size: 1.5rem; /* 30px to rem (30/20) */
   }
 
   .contactul .contactli .contacta span {
-    top: 20px;
+    top: 1rem; /* 20px to rem (20/20) */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 24rem) {
+  /* 480px to rem (480/20) */
   .contactul {
-    margin-top: 50%;
+    margin-top: 2.5rem; /* 50px to rem (50/20) */
   }
+
   .contactul .contactli {
     flex: 1 1 100%;
   }
 
   .contactul .contactli .contacta {
-    height: 50px;
+    height: 2.5rem; /* 50px to rem (50/20) */
   }
 
   .contactul .contactli .contacta .fa {
-    font-size: 25px;
+    font-size: 1.25rem; /* 25px to rem (25/20) */
   }
 
   .contactul .contactli .contacta span {
-    top: 15px;
+    top: 0.75rem; /* 15px to rem (15/20) */
   }
 }
 
-/*Nav*/
-@media screen and (max-width: 768px) {
+/* Nav */
+@media screen and (max-width: 48rem) {
+  /* 768px to rem (768/16) */
   .navbar-brand {
     display: flex;
     align-items: center;
@@ -486,6 +493,6 @@ p:not(:last-child) {
   }
 
   .navbar-brand .text-3xl {
-    margin-right: 20px;
+    margin-right: 1rem; /* 20px to rem (20/20) */
   }
 }

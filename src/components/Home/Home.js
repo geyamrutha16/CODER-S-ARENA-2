@@ -78,8 +78,9 @@ const Home = () => {
                             <p classname="aboutp">Welcome to <strong>Coder's Arena!</strong> Our mission is to inspire the next
                                 generation of tech innovators by providing a platform for students to explore
                                 the world of programming. We offer hands-on learning experiences.
-                                our club is here
-                                to help you turn your ideas into reality. Let's code the future together!"</p>
+                                The Coder's Club 2024 aims to create a thriving environment where students can enhance
+                                their coding skills, participate in various coding challenges, Coding Classes
+                                and stay updated with the latest trends in tech.</p>
                             <p className="card1-footer" style={{ color: "royalblue" }}>
                                 <Typewriter
                                     words={[

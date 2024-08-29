@@ -304,7 +304,7 @@ input {
 .subscribe-btn {
   padding: 0.8rem 2rem;
   border-radius: 5rem;
-  background: linear-gradient(90deg, rgb(108, 136, 221), royalblue);
+  background: linear-gradient(90deg, rgb(129, 153, 224), royalblue);
   color: #fff;
   font-size: 0.7rem;
   border: none;
@@ -314,6 +314,7 @@ input {
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 40vh;
+    width: 90%;
+    margin-left: 5%;
   }
 }
