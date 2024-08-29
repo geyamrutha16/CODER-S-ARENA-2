@@ -1,4 +1,4 @@
-.cardbox {
+.icardbox {
   width: 100%;
   min-height: 70vh;
   display: flex;
@@ -13,8 +13,7 @@ img {
   border-radius: 50%;
 }
 
-.card {
-  background-color: "#eef9ff";
+.icard {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,10 +48,10 @@ img {
 }
 
 @media (max-width: 768px) {
-  .cardbox {
+  .icardbox {
     margin-left: 0%;
   }
-  .card {
+  .icard {
     padding-block: 5px;
     padding-inline: 0px;
     margin-right: 20%;
@@ -63,10 +62,10 @@ img {
 }
 
 @media (max-width: 480px) {
-  .cardbox {
+  .icardbox {
     margin-left: 0%;
   }
-  .card {
+  .icard {
     padding-block: 5px;
     padding-inline: 0px;
     margin-right: 20%;

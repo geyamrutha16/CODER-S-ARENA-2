@@ -59,10 +59,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <h1 className="display-5" style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '5rem' }}>Our Mission</h1>
+                <h1 style={{ fontWeight: 'bold', textAlign: "center", paddingTop: "40px", fontSize: "2rem" }}>Our Mission</h1>
                 <div className="aboutbox" id="mission" ref={missionRef}>
                     <div className="aboutdes">
-                        <div className="col-md-4 col-sm-6 col-xs-12">
+                        {/* <div className="col-md-4 col-sm-6 col-xs-12">
                             <div className="card">
                                 <div className="cover item-a">
                                     <h1 className='cardh1'>Coder's Arena</h1>
@@ -72,7 +72,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="card1">
                             <p className="aboutp">Welcome to <strong>Coder's Arena!</strong> Our mission is to inspire the next
                                 generation of tech innovators by providing a platform for students to explore

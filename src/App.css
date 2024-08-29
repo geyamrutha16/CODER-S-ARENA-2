@@ -87,7 +87,7 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .missionbox {
@@ -123,7 +123,7 @@ html {
   width: 100%;
   transition: ease all 2.3s;
   perspective: 75rem;
-  font-size: 0.5rem;
+  font-size: 0.3rem;
 }
 
 .card:hover .cover {
@@ -166,10 +166,10 @@ html {
   position: absolute;
   border: 0.3125rem solid rgba(255, 255, 255, 0.5); /* 5px to rem */
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.3); /* 12px to rem */
-  top: 1.25rem; /* 20px to rem */
-  left: 1.25rem; /* 20px to rem */
-  right: 1.25rem; /* 20px to rem */
-  bottom: 1.25rem; /* 20px to rem */
+  top: 1rem; /* 20px to rem */
+  left: 1rem; /* 20px to rem */
+  right: 1rem; /* 20px to rem */
+  bottom: 1rem; /* 20px to rem */
   z-index: 2;
   transition: ease all 2.3s;
   transform-style: preserve-3d;

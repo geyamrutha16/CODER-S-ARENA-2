@@ -3,7 +3,7 @@ body {
 }
 
 .row {
-  margin-left: 3.125rem; /* 50px / 16 = 3.125rem */
+  margin-left: 0rem; /* 50px / 16 = 3.125rem */
   display: flex;
   justify-content: space-evenly;
 }
@@ -13,35 +13,35 @@ body {
 }
 
 .new_footer_top {
-  padding: 7.5rem 0 16.875rem; /* 120px / 16 = 7.5rem, 270px / 16 = 16.875rem */
+  padding: 3.5rem 0 8.875rem; /* 120px / 16 = 7.5rem, 270px / 16 = 16.875rem */
   position: relative;
   overflow-x: hidden;
 }
 
 .footer_bottom {
-  font-size: 0.875rem; /* 14px / 16 = 0.875rem */
+  font-size: 0.575rem; /* 14px / 16 = 0.875rem */
   font-weight: 300;
-  line-height: 1.25rem; /* 20px / 16 = 1.25rem */
+  line-height: 0.75rem; /* 20px / 16 = 1.25rem */
   color: #7f88a6;
-  padding: 1.6875rem 0; /* 27px / 16 = 1.6875rem */
+  padding: 1.0875rem 0; /* 27px / 16 = 1.6875rem */
 }
 
 .new_footer_area .footer_bottom {
-  padding-top: 0.3125rem; /* 5px / 16 = 0.3125rem */
-  padding-bottom: 3.125rem; /* 50px / 16 = 3.125rem */
+  padding-top: 0.1125rem; /* 5px / 16 = 0.3125rem */
+  padding-bottom: 1.125rem; /* 50px / 16 = 3.125rem */
 }
 
 .new_footer_top .company_widget p {
-  font-size: 1rem; /* 16px / 16 = 1rem */
+  font-size: 0.8rem; /* 16px / 16 = 1rem */
   font-weight: 300;
   line-height: 1.75rem; /* 28px / 16 = 1.75rem */
   color: #6a7695;
-  margin-bottom: 1.25rem; /* 20px / 16 = 1.25rem */
+  margin-bottom: 1rem; /* 20px / 16 = 1.25rem */
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
   border-width: 0.0625rem; /* 1px / 16 = 0.0625rem */
-  margin-top: 1.25rem; /* 20px / 16 = 1.25rem */
+  margin-top: 1rem; /* 20px / 16 = 1.25rem */
 }
 
 .btn_get_two {
@@ -94,9 +94,9 @@ button:focus {
 }
 
 .new_footer_top .f_social_icon a {
-  width: 2.75rem; /* 44px / 16 = 2.75rem */
-  height: 2.75rem; /* 44px / 16 = 2.75rem */
-  line-height: 2.6875rem; /* 43px / 16 = 2.6875rem */
+  width: 2.55rem; /* 44px / 16 = 2.75rem */
+  height: 2.55rem; /* 44px / 16 = 2.75rem */
+  line-height: 2.5875rem; /* 43px / 16 = 2.6875rem */
   background: transparent;
   border: 0.0625rem solid #e2e2eb; /* 1px / 16 = 0.0625rem */
   font-size: 1.5rem; /* 24px / 16 = 1.5rem */

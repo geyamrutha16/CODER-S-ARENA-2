@@ -57,7 +57,7 @@ const Instructors = () => {
 
     return (
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" style={{ backgroundColor: "#eef9ff", width: "100%" }}>
-            <h1 className="display-5" style={{ fontWeight: 'bold', textAlign: "center", paddingTop: "40px" }}>Our Team</h1>
+            <h1 style={{ fontWeight: 'bold', textAlign: "center", paddingTop: "40px", fontSize: "2rem" }}>Our Team</h1>
             <div className="carousel-indicators">
                 {slides.map((_, index) => (
                     <button
@@ -79,12 +79,12 @@ const Instructors = () => {
                         data-bs-interval="3000"
                         style={{ width: '500px', height: "auto" }}
                     >
-                        <div className="cardbox" >
-                            <div className="card" style={{ height: "20rem" }}>
-                                <img src={slide.imgSrc} className="card-img-top" alt="..." style={{ width: "200px", height: "230px", borderRadius: "50%", paddingTop: "10px" }} />
-                                <div className="card-body">
-                                    <h1 className="card-title" style={{ fontWeight: "bold", letterSpacing: "4px" }}>{slide.title1}</h1>
-                                    <h1 className="card-title" style={{ textAlign: "center" }}>{slide.title2}</h1>
+                        <div className="icardbox" >
+                            <div className="icard" style={{ height: "20rem", backgroundColor: "white", width: "30rem" }}>
+                                <img src={slide.imgSrc} className="icard-img-top" alt="..." style={{ width: "200px", height: "230px", borderRadius: "50%", paddingTop: "10px" }} />
+                                <div className="icard-body">
+                                    <h1 className="icard-title" style={{ fontWeight: "bold", letterSpacing: "4px" }}>{slide.title1}</h1>
+                                    <h1 className="icard-title" style={{ textAlign: "center" }}>{slide.title2}</h1>
                                 </div>
                             </div>
                         </div>
