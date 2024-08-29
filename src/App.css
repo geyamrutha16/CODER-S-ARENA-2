@@ -56,6 +56,10 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  font-size: 20px;
+}
+
 /*App component*/
 .App {
   text-align: center;
