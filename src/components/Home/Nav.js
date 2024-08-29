@@ -12,7 +12,7 @@ const Nav = () => {
         { name: "HOME", link: "/" },
         { name: "ABOUT", link: "/about" },
         { name: "EVENTS", link: "/events" },
-        { name: "CALENDAR", link: "/calendar" }
+        { name: "CALENDAR", link: "/calendar" },
     ];
 
     const [open1, setOpen1] = useState(false);
@@ -47,7 +47,7 @@ const Nav = () => {
     }, [loading]);
 
     const handleLinkClick = () => {
-        setLoading(true); // 
+        setLoading(true);
     };
 
     return (
@@ -99,7 +99,7 @@ const Nav = () => {
                             )}
                         </li>
                         <Button>
-                            <Link to="/join" >Join Now</Link>
+                            <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                         </Button>
                     </ul>
                 </div>

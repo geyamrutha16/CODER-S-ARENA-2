@@ -5,7 +5,27 @@ import '../../App.css';
 const JoinNow = () => {
     return (
         <>
-            <div className="fluid blink-in">
+            <div className="wrapper blink-in">
+                <form action="#" className="card-content">
+                    <div className="container">
+                        <div className="image">
+                            <i className="fas fa-envelope"></i>
+                        </div>
+                        <h1>Join Now</h1>
+                        <p>Join the Coder's Club Today and Unlock a World of Coding Opportunities!</p>
+                    </div>
+                    <div className="form-input">
+                        <label htmlFor="email"></label>
+                        <button className="subscribe-btn">Join Now</button>
+                    </div>
+                </form>
+            </div>
+        </>
+    );
+};
+
+export default JoinNow;
+{/* <div className="fluid blink-in">
                 <h2 className="display-6" style={{ textAlign: "center", marginTop: "100px" }}>Our Services</h2>
                 <hr style={{ border: '3px solid #4f46e5', margin: '20px 35%', textAlign: "center", width: "30%" }} />
             </div >
@@ -79,4 +99,4 @@ const JoinNow = () => {
     );
 };
 
-export default JoinNow;
+export default JoinNow; */}

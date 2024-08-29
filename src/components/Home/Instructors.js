@@ -6,52 +6,52 @@ const Instructors = () => {
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "President",
-            title2: "Card title 1",
+            title2: "Ajay",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Vice President",
-            title2: "Card title 2",
+            title2: "Geyamrutha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Secretary",
-            title2: "Card title 3",
+            title2: "Varshitha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Treasurer",
-            title2: "Card title 4",
+            title2: "Ganesh",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 5",
+            title1: "Designer",
+            title2: "Jishnu Vardhan",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 6",
+            title1: "Web Master",
+            title2: "Sai Rekha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 7",
+            title1: "Web Master",
+            title2: "Chandini",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 8",
+            title1: "Event Manager",
+            title2: "Gayathri",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 9",
+            title1: "Event Manager",
+            title2: "Divya",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 10",
+            title1: "Event Manager",
+            title2: "Mohammed Zaid",
         }
     ];
 

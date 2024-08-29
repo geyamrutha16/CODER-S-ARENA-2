@@ -4,8 +4,7 @@ import '../../App.css';
 
 
 const eventsData = {
-    "2024-08-12": [{ id: 1, name: "Meeting with Team" }],
-    "2024-08-14": [{ id: 2, name: "Project Deadline" }],
+    "2024-08-30": [{ id: 1, name: "Club Inauguration" }],
 };
 
 const CalendarComponent = () => {

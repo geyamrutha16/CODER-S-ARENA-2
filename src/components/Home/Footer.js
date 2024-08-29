@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import '../../App.css'
 import "./Footer.css"; // Assuming you have placed the CSS in this file
 
 const Footer = () => {
+    const [Open1, setOpen1] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+
+    useEffect(() => {
+        if (loading) {
+            const timer = setTimeout(() => setLoading(false), 1000);
+            return () => clearTimeout(timer);
+        }
+    }, [loading]);
+
+    const handleLinkClick = () => {
+        setLoading(true);
+    };
     return (
         <footer className="new_footer_area bg_color">
             <div className="new_footer_top">
@@ -23,7 +39,9 @@ const Footer = () => {
                                     noValidate
                                 >
                                     {/*                                     <input type="text" name="EMAIL" className="form-control memail" placeholder="Email" />
- */}                                    <button className="btn btn_get btn_get_two" type="submit">Join Now..!</button>
+ */}                                    <button className="btn btn_get btn_get_two" type="submit">
+                                        <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
+                                    </button>
                                     <p className="mchimp-errmessage" style={{ display: "none" }}></p>
                                     <p className="mchimp-sucmessage" style={{ display: "none" }}></p>
                                 </form>

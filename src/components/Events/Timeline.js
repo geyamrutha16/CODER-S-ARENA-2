@@ -29,13 +29,7 @@ const Timeline = () => {
     }, []);
 
     const events = [
-        { date: "2015", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2016", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2017", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2018", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2019", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2020", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { date: "2021", title: "timeline item title", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+        { date: "30-08-2024", title: "Club Inauguration", description: "Kickstart Your Coding Journey: Join Us for the Grand Inauguration of the Coder's Club!" },
     ];
 
     return (

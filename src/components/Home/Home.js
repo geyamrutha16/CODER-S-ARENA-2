@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import Instructors from './Instructors';
 import Nav from './Nav';
@@ -7,6 +8,21 @@ import image from './dm.svg';
 import Footer from './Footer';
 
 const Home = () => {
+    const [Open1, setOpen1] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+
+    useEffect(() => {
+        if (loading) {
+            const timer = setTimeout(() => setLoading(false), 1000);
+            return () => clearTimeout(timer);
+        }
+    }, [loading]);
+
+    const handleLinkClick = () => {
+        setLoading(true);
+    };
+
     const missionRef = useRef(null);
     return (
         <>
@@ -35,7 +51,9 @@ const Home = () => {
                                     />
                                 </h2>
                             </div>
-                            <button type="button" id="button" className="btn btn-outline-primary" style={{ marginTop: '50px', marginLeft: "8%" }}>Join Now</button>
+                            <button type="button" id="button" className="btn btn-outline-primary" style={{ marginTop: '50px', marginLeft: "8%" }}>
+                                <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
+                            </button>
                         </div>
                         <div className="container" id="image">
                             <img src={image} style={{ marginTop: "5%" }} alt='background' />
@@ -51,7 +69,7 @@ const Home = () => {
                                     <h1 className='cardh1'>Coder's Arena</h1>
                                     <span className="price">@2024</span>
                                     <div className="card-back">
-                                        <a href="/">Join Now</a>
+                                        <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                                     </div>
                                 </div>
                             </div>

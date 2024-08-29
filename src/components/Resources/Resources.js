@@ -15,29 +15,31 @@ const Resources = () => {
                             <input type="checkbox" id="chck1" />
                             <label className="tab-label" htmlFor="chck1">week 1</label>
                             <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>Added Soon..!</button>
+                                {/* <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button> */}
                             </div>
                         </div>
                         <div className="tab">
                             <input type="checkbox" id="chck2" />
                             <label className="tab-label" htmlFor="chck2">week 2</label>
                             <div className="tab-content" style={{ padding: "20px" }}>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>Added Soon..!</button>
+                                {/* <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 1</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 2</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 3</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 4</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 5</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
-                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button>
+                                <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button> */}
                             </div>
                         </div>
-                        <div className="tab">
+                        {/* <div className="tab">
                             <input type="checkbox" id="chck3" />
                             <label className="tab-label" htmlFor="chck3">week 3</label>
                             <div className="tab-content" style={{ padding: "20px" }}>
@@ -62,7 +64,7 @@ const Resources = () => {
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 6</button>
                                 <button className='btn btn-outline-primary' style={{ margin: "20px" }}>DAY 7</button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
