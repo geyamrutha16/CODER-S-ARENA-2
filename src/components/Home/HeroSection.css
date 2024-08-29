@@ -1,0 +1,25 @@
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.typewriter h2 {
+  display: inline-block;
+  font-family: monospace;
+}
+
+.join-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}

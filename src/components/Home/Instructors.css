@@ -1,0 +1,76 @@
+.cardbox {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin-left: 102%;
+  margin-top: 14%;
+  background-color: "#eef9ff";
+}
+
+img {
+  border: none;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: "#eef9ff";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 30px;
+  border: none;
+  border-radius: 20px;
+  padding-block: 35px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+.carousel-item {
+  transition: transform 0.4s ease-in-out;
+  background-color: "#eef9ff";
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 16 16%27%3E%3Cpath d%3D%27M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z%27/%3E%3C/svg%3E");
+  width: 2rem;
+  height: 3rem;
+  z-index: 200;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 16 16%27%3E%3Cpath d%3D%27M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z%27/%3E%3C/svg%3E");
+  width: 2rem;
+  height: 3rem;
+  z-index: 200;
+}
+
+@media (max-width: 768px) {
+  .cardbox {
+    margin-left: 0%;
+  }
+  .card {
+    padding-block: 5px;
+    padding-inline: 0px;
+    margin-right: 20%;
+  }
+  #item {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardbox {
+    margin-left: 0%;
+  }
+  .card {
+    padding-block: 5px;
+    padding-inline: 0px;
+    margin-right: 20%;
+  }
+  #item {
+    width: 300px;
+  }
+}
