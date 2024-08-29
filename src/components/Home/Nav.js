@@ -53,15 +53,15 @@ const Nav = () => {
     return (
         <>
             {loading && <LoadingBar />}
-            <div className='shadow-md w-100 fixed top-0 left-0' style={{ zIndex: "1000" }}>
+            <div className='shadow-md w-100 fixed top-0 left-0 ' style={{ zIndex: "1000" }}>
                 <div className="flex flex-col md:flex-row items-center justify-between bg-white md:px-10 px-7">
                     <div className='navbar-brand font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
                         <div className='flex items-center' style={{ marginLeft: "0px", marginRight: "80px" }}>
-                            <span className='text-3xl text-indigo-600 mr-1 pt-2'>
+                            <span className='text-3xl text-indigo-600 mr-1 pt-1'>
                                 {/* <ion-icon name="logo-ionic"></ion-icon> */}
                                 <img src={image} style={{ width: "60px", marginBottom: "10px", marginRight: "2px" }} alt='2024' />
                             </span>
-                            Coder's Arena
+                            <h1 style={{ fontSize: "1rem" }}>Coder's Arena</h1>
                         </div>
 
                         <div onClick={() => setOpen1(!open1)} className="text-3xl cursor-pointer md:hidden">
@@ -73,7 +73,7 @@ const Nav = () => {
 
                     </div>
 
-                    <ul className={`md:flex md:items-center md:justify-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open1 ? 'top-20' : 'top-[-490px]'}`}>
+                    <ul className={`md:flex md:items-center md:justify-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open1 ? 'top-10' : 'top-[-490px]'}`}>
                         {Links.map((link) => (
                             <li key={link.name} className='md:ml-8 text-l md:my-0 my-7' onClick={() => { setOpen1(false); handleLinkClick(); }}>
                                 <Link to={link.link} className='text-gray-800  duration-500'>{link.name}</Link>
@@ -98,7 +98,7 @@ const Nav = () => {
                                 </ul>
                             )}
                         </li>
-                        <Button>
+                        <Button style={{ padding: 0 }}>
                             <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                         </Button>
                     </ul>
