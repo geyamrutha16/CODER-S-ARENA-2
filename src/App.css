@@ -198,7 +198,8 @@ html {
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 3;
-  font-size: 2em; /* This can stay as is unless you prefer to use rem for consistency */
+  text-align: center;
+  font-size: 2rem; /* This can stay as is unless you prefer to use rem for consistency */
   transform: translateZ(0);
 }
 

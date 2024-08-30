@@ -1,6 +1,17 @@
 import React from 'react';
 import './Instructors.css';
-import Ajay from '../About/images/Ajay.jpeg';
+import Ajay from '../About/images/Ajay.png';
+import Amrutha from '../About/images/Amrutha.png';
+import Rekha from '../About/images/Rekha.png';
+import Gayathri from '../About/images/Gayathri.png';
+import Chandini from '../About/images/Chandini.png';
+import Jishnu from '../About/images/Jishnu.png';
+import Divya from '../About/images/Divya.png';
+import Ganesh from '../About/images/Ganesh.png';
+import Zaid from '../About/images/Zaid.png';
+import Varshitha from '../About/images/Varshitha.png';
+
+
 
 const Instructors = () => {
     const slides = [
@@ -10,47 +21,47 @@ const Instructors = () => {
             title2: "A. Ajay",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Amrutha,
             title1: "Vice President",
             title2: "P. Geyamrutha",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Varshitha,
             title1: "Secretary",
             title2: "G. Varshitha",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Ganesh,
             title1: "Treasurer",
             title2: "CH. Ganesh",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Jishnu,
             title1: "Designer",
             title2: "M. Jishnu Vardhan",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Rekha,
             title1: "Web Master",
             title2: "K. Sai Rekha",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Chandini,
             title1: "Web Master",
             title2: "Y. Chandini",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Gayathri,
             title1: "Event Manager",
             title2: "N. Gayathri",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Zaid,
             title1: "Event Manager",
             title2: "Mohammed Zaid",
         },
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Divya,
             title1: "Event Manager",
             title2: "N. Divya",
         }

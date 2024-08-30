@@ -16,7 +16,7 @@ const JoinNow = () => {
                 <div className="form-input">
                     <label htmlFor="email"></label>
                     <input type="email" placeholder="Your Email" />
-                    <button className="subscribe-btn">Join Now</button>
+                    <button className="subscribe-btn"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfrj0W4474i2Js_YAtspGwaxKXzaBLrszzyHR3mLImDNJzHUQ/viewform'>Join Now</a></button>
                 </div>
             </form>
         </div>
