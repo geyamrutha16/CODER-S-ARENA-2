@@ -83,9 +83,9 @@ const Instructors = () => {
                     >
                         <div className="icardbox" >
                             <div className="icard">
-                                <img src={slide.imgSrc} className="icard-img-top" alt="..." style={{ width: "300px", height: "300px", borderRadius: "50%", paddingTop: "10px" }} />
+                                <img src={slide.imgSrc} className="icard-img-top" alt="..." style={{ width: "300px", height: "300px", borderRadius: "50%", paddingTop: "10px", paddingBottom: "10px" }} />
                                 <div className="icard-body">
-                                    <h1 className="icard-title" style={{ fontWeight: "bold", letterSpacing: "4px" }}>{slide.title1}</h1>
+                                    <h1 className="icard-title" style={{ fontWeight: "bold", letterSpacing: "3px", color: "royalblue" }}>{slide.title1}</h1>
                                     <h1 className="icard-title" style={{ textAlign: "center", marginBlock: "1rem" }}>{slide.title2}</h1>
                                 </div>
                             </div>

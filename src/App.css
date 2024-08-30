@@ -261,6 +261,7 @@ html {
 
 p {
   margin: 0;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -291,6 +292,10 @@ p:not(:last-child) {
 /* Media Queries for Responsiveness */
 @media (max-width: 48rem) {
   /* 768px to rem (768/16) */
+
+  .aboutp {
+    text-align: center;
+  }
 
   ul li a {
     font-size: 1rem;

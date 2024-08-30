@@ -92,9 +92,9 @@ select:hover {
 }
 
 .calhead {
-  margin-bottom: "2rem";
-  margin-top: "1.75rem";
-  font-size: "1rem";
+  margin-bottom: 2rem;
+  margin-top: 1.75rem;
+  font-size: 1rem;
 }
 
 .event-item1 {
@@ -108,14 +108,14 @@ select:hover {
 }
 
 .yearh {
-  margin-top: "1.75rem";
-  margin-bottom: "2.375rem";
+  margin-top: 1.75rem;
+  margin-bottom: 2.375rem;
 }
 
 .eventsdis {
-  margin-bottom: "2rem";
-  margin-top: "1.5rem";
-  font-size: "1rem";
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 48rem) {

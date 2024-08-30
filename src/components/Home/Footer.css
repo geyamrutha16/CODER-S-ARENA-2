@@ -6,10 +6,11 @@
 
 .new_footer_area {
   background: #fbfbfd;
+  padding: 1rem 0 3.875rem;
 }
 
 .new_footer_top {
-  padding: 3.5rem 0 8.875rem; /* 120px / 16 = 7.5rem, 270px / 16 = 16.875rem */
+  padding: 0.5rem 0 8.875rem; /* 120px / 16 = 7.5rem, 270px / 16 = 16.875rem */
   position: relative;
   overflow-x: hidden;
 }
@@ -28,7 +29,7 @@
 }
 
 .new_footer_top .company_widget p {
-  font-size: 0.9rem; /* 16px / 16 = 1rem */
+  font-size: 0.8rem; /* 16px / 16 = 1rem */
   font-weight: 400;
   line-height: 1.75rem; /* 28px / 16 = 1.75rem */
   color: #6a7695;
@@ -83,7 +84,7 @@ button:focus {
 
 .new_footer_top .f_widget.about-widget .f_list li a {
   color: #6a7695;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
@@ -96,7 +97,7 @@ button:focus {
   line-height: 2.5875rem; /* 43px / 16 = 2.6875rem */
   background: transparent;
   border: 0.0625rem solid #e2e2eb; /* 1px / 16 = 0.0625rem */
-  font-size: 1.5rem; /* 24px / 16 = 1.5rem */
+  font-size: 1rem; /* 24px / 16 = 1.5rem */
   color: #858da8;
   border-radius: 50%;
   text-align: center;
@@ -119,12 +120,16 @@ button:focus {
   color: #263b5e;
 }
 
+.f_widget {
+  margin-top: 0.3rem;
+}
+
 .f_600 {
   font-weight: 600;
 }
 
 .f_size_18 {
-  font-size: 1.125rem; /* 18px / 16 = 1.125rem */
+  font-size: 1rem; /* 18px / 16 = 1.125rem */
 }
 
 h1,
