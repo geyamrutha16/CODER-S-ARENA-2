@@ -55,7 +55,7 @@ const Home = () => {
                             </button>
                         </div>
                         <div className="container" id="image">
-                            <img src={image} style={{ marginTop: '0.3125rem' }} alt='background' />
+                            <img src={image} style={{ marginTop: '0.2125rem' }} alt='background' />
                         </div>
                     </div>
                 </div>

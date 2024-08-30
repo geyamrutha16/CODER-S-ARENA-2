@@ -59,7 +59,7 @@ const Nav = () => {
                         <div className='flex items-center' style={{ marginLeft: "0px", marginRight: "80px" }}>
                             <span className='text-3xl text-indigo-600 mr-1 pt-1'>
                                 {/* <ion-icon name="logo-ionic"></ion-icon> */}
-                                <img src={image} style={{ width: "60px", marginBottom: "10px", marginRight: "2px" }} alt='2024' />
+                                <img src={image} style={{ width: "60px", marginBottom: "0px", marginRight: "2px" }} alt='2024' />
                             </span>
                             <h1 style={{ fontSize: "1rem" }}>Coder's Arena</h1>
                         </div>
