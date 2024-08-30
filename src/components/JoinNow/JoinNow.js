@@ -4,7 +4,7 @@ import '../../App.css';
 
 const JoinNow = () => {
     return (
-        <div className="wrapper">
+        <div className="wrapper" style={{ marginTop: "10px" }}>
             <form action="#" className="card-content">
                 <div className="container">
                     <div className="image">

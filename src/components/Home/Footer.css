@@ -6,7 +6,6 @@
 
 .new_footer_area {
   background: #fbfbfd;
-  font-size: 0.3rem;
 }
 
 .new_footer_top {
@@ -25,15 +24,15 @@
 
 .new_footer_area .footer_bottom {
   padding-top: 0.1125rem; /* 5px / 16 = 0.3125rem */
-  padding-bottom: 1.125rem; /* 50px / 16 = 3.125rem */
+  padding-bottom: 2.125rem; /* 50px / 16 = 3.125rem */
 }
 
 .new_footer_top .company_widget p {
-  font-size: 0.8rem; /* 16px / 16 = 1rem */
-  font-weight: 300;
+  font-size: 0.9rem; /* 16px / 16 = 1rem */
+  font-weight: 400;
   line-height: 1.75rem; /* 28px / 16 = 1.75rem */
   color: #6a7695;
-  margin-bottom: 1rem; /* 20px / 16 = 1.25rem */
+  margin-bottom: 1.5rem; /* 20px / 16 = 1.25rem */
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {

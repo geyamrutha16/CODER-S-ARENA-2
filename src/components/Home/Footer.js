@@ -51,9 +51,9 @@ const Footer = () => {
                             <div
                                 className="f_widget about-widget pl_70 wow fadeInLeft"
                                 data-wow-delay="0.4s"
-                                style={{ visibility: "visible", animationDelay: "0.4s", animationName: "fadeInLeft" }}
+                                style={{ visibility: "visible", animationDelay: "0.4s", animationName: "fadeInLeft", marginLeft: "50px" }}
                             >
-                                <h3 className="f-title f_600 t_color f_size_18">Resources</h3>
+                                <h3 className="f-title f_600 t_color f_size_18" >Resources</h3>
                                 <ul className="list-unstyled f_list">
                                     <li><a href="/">Java</a></li>
                                     <li><a href="/">Python</a></li>

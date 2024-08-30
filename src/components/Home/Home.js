@@ -47,7 +47,7 @@ const Home = () => {
                                         typeSpeed={100}
                                         deleteSpeed={60}
                                         delaySpeed={1000}
-                                        style={{ fontSize: '1rem' }}
+                                        style={{ fontSize: '0.7rem' }}
                                     />
                                 </h1>
                             </div>

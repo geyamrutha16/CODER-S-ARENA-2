@@ -35,10 +35,10 @@ const Timeline = () => {
     return (
         <>
             <div className="fluid blink-in">
-                <h2 className="display-6" style={{ textAlign: "center", marginTop: "100px" }}>Events</h2>
+                <h2 className="display-6" style={{ textAlign: "center", marginTop: "100px", fontSize: "2rem" }}>Events</h2>
                 <hr style={{ border: '3px solid #4f46e5', margin: '20px 35%', textAlign: "center", width: "30%" }} />
             </div >
-            <section className="timeline-section blink-in">
+            <section className="timeline-section blink-in" style={{ fontSize: "0.7rem" }}>
                 <div className="timeline-items">
                     {events.map((event, index) => (
                         <div
