@@ -6,7 +6,7 @@ const Resources = () => {
         <div>
             <div className="fluid blink-in">
                 <h2 className="display-6" style={{ textAlign: "center", marginTop: "6.25rem" }}>Resources</h2>
-                <hr style={{ border: '0.1875rem solid #4f46e5', margin: '1.25rem 22%', textAlign: "center", width: "30%" }} />
+                <hr style={{ border: '0.1875rem solid #4f46e5', margin: '1.25rem 35%', textAlign: "center", width: "30%" }} />
             </div>
             <div className="row">
                 <div className="col">
