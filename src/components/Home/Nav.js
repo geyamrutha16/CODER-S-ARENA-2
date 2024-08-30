@@ -53,7 +53,7 @@ const Nav = () => {
     return (
         <>
             {loading && <LoadingBar />}
-            <div className='shadow-md w-100 fixed top-0 left-0 ' style={{ zIndex: "1000" }}>
+            <div className='shadow-md w-100 fixed top-0 left-0 ' style={{ zIndex: "1000", fontSize: "0.7rem" }}>
                 <div className="flex flex-col md:flex-row items-center justify-between bg-white md:px-10 px-7">
                     <div className='navbar-brand font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
                         <div className='flex items-center' style={{ marginLeft: "0px", marginRight: "80px" }}>

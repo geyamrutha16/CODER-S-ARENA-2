@@ -56,14 +56,11 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  font-size: 0.7rem;
-}
-
 /*App component*/
 .App {
   text-align: center;
   min-width: 100%;
+  font-size: 0.3rem;
 }
 
 /*Home page*/

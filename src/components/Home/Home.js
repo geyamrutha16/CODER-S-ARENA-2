@@ -32,7 +32,7 @@ const Home = () => {
                         <div className="container">
                             <h1 className="display-6" style={{ fontWeight: 'bold', marginLeft: '0.5rem' }}>Inspire. Innovate. Code.</h1>
                             <div className="typewriter" style={{ marginTop: '2.5rem', marginLeft: '0.5rem' }}>
-                                <h2 className="display-6">
+                                <h1 className="display-6"  >
                                     <Typewriter
                                         words={[
                                             "Learn to Code",
@@ -47,14 +47,17 @@ const Home = () => {
                                         typeSpeed={100}
                                         deleteSpeed={60}
                                         delaySpeed={1000}
+                                        style={{ fontSize: '1rem' }}
                                     />
-                                </h2>
+                                </h1>
                             </div>
                             <button type="button" id="button" className="btn btn-outline-primary" style={{ marginTop: '3.125rem', marginLeft: '0.5rem' }}>
                                 <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                             </button>
                         </div>
-                        <div className="container" id="image">
+                        <div className="container" id="image" style={{
+                            marginTop: '1.5rem'
+                        }}>
                             <img src={image} style={{ marginTop: '0.2125rem' }} alt='background' />
                         </div>
                     </div>
