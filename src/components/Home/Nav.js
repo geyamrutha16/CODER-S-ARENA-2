@@ -53,7 +53,7 @@ const Nav = () => {
     return (
         <>
             {loading && <LoadingBar />}
-            <div className='shadow-md w-100 fixed top-0 left-0 ' style={{ zIndex: "1000", fontSize: "0.7rem" }}>
+            <div className='shadow-md w-100 fixed top-0 left-0 ' style={{ zIndex: "1000" }}>
                 <div className="flex flex-col md:flex-row items-center justify-between bg-white md:px-10 px-7">
                     <div className='navbar-brand font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
                         <div className='flex items-center' style={{ marginLeft: "0px", marginRight: "80px" }}>
@@ -75,17 +75,17 @@ const Nav = () => {
 
                     <ul className={`md:flex md:items-center md:justify-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open1 ? 'top-10' : 'top-[-490px]'}`}>
                         {Links.map((link) => (
-                            <li key={link.name} className='md:ml-8 text-l md:my-0 my-7' onClick={() => { setOpen1(false); handleLinkClick(); }}>
-                                <Link to={link.link} className='text-gray-800  duration-500'>{link.name}</Link>
+                            <li key={link.name} className='md:ml-8 text-l md:my-0 my-7' onClick={() => { setOpen1(false); handleLinkClick(); }} style={{ fontSize: "0.9rem" }}>
+                                <Link to={link.link} className='text-gray-800  duration-500' style={{ fontSize: "0.9rem" }}>{link.name}</Link>
                             </li>
                         ))}
                         <li className='md:ml-8 text-l md:my-0 my-7 relative' ref={dropdownRef}>
-                            <div className='text-gray-800 duration-500 cursor-pointer' onClick={() => handleDropdownClick('resources')}>
+                            <div className='text-gray-800 duration-500 cursor-pointer' onClick={() => handleDropdownClick('resources')} style={{ fontSize: "0.9rem" }}>
                                 RESOURCES
                                 <FontAwesomeIcon icon={faCaretDown} style={{ color: "#000000", paddingLeft: "10px" }} />
                             </div>
                             {activeDropdown === 'resources' && (
-                                <ul className='absolute bg-white shadow-md mt-3 w-40 border border-secondary-subtle' style={{ zIndex: "200" }}>
+                                <ul className='absolute bg-white shadow-md mt-3 w-40 border border-secondary-subtle' style={{ zIndex: "200", fontSize: "1rem" }}>
                                     <li className='px-4 py-2 hover:bg-gray-100' onClick={() => { setOpen1(false); handleLinkClick(); }}>
                                         <Link to="/resources" className='text-gray-700 hover:text-blue-400 duration-500'>Java</Link>
                                     </li>
@@ -102,8 +102,8 @@ const Nav = () => {
                             <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }}>Join Now</Link>
                         </Button>
                     </ul>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
     );
 }

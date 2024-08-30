@@ -194,7 +194,7 @@ html {
   position: absolute;
   bottom: 2.3375rem; /* 55px to rem */
   left: 5.825rem; /* 50px to rem */
-  color: white;
+  color: black;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 3;
@@ -226,6 +226,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1rem;
 }
 
 .card-back a {
@@ -290,6 +291,15 @@ p:not(:last-child) {
 /* Media Queries for Responsiveness */
 @media (max-width: 48rem) {
   /* 768px to rem (768/16) */
+
+  ul li a {
+    font-size: 1rem;
+  }
+
+  .missionhead {
+    margin-bottom: 0rem;
+  }
+
   #button {
     margin-left: 40%; /* Percentage remains the same */
   }
@@ -313,7 +323,7 @@ p:not(:last-child) {
   }
 
   .cardh1 {
-    font-size: 2em; /* Already in em, no need for conversion */
+    font-size: 5em; /* Already in em, no need for conversion */
     bottom: 2rem; /* 40px to rem (40/20) */
     left: 1.5rem; /* 30px to rem (30/20) */
   }

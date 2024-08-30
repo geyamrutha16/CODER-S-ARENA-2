@@ -40,7 +40,7 @@ const CalendarComponent = () => {
         <div className="calendar blink-in">
             {/* Section 1: Year and Month Selection */}
             <div className="year-month">
-                <h1 className="yearh" style={{ fontWeight: "bold", marginTop: "1.75rem", marginBottom: "2.375rem", fontSize: "1rem" }}>Year & Month</h1>
+                <h1 className="yearh" style={{ fontWeight: "bold", fontSize: "1rem" }}>Year & Month</h1>
                 <div className="select">
                     <h2>Select Year : &nbsp; </h2>
                     <select value={selectedYear} onChange={handleYearChange}
@@ -82,7 +82,7 @@ const CalendarComponent = () => {
 
             {/* Section 2: Month Display */}
             <div className="card month-display" style={{ paddingLeft: "1rem" }}>
-                <h1 className="calhead" style={{ fontWeight: "bold", marginBottom: "2rem", marginTop: "1.75rem", fontSize: "1rem" }}>{new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })} {selectedYear}</h1>
+                <h1 className="calhead" style={{ fontWeight: "bold" }}>{new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })} {selectedYear}</h1>
                 <div className="days-grid" style={{ fontSize: "0.7rem" }}>
                     {[...Array(daysInMonth(selectedYear, selectedMonth)).keys()].map(day => (
                         <div
@@ -100,7 +100,7 @@ const CalendarComponent = () => {
 
             {/* Section 3: Event Display */}
             <div className="events-display" style={{ paddingLeft: "3.125rem" }}>
-                <h1 style={{ fontWeight: "bold", marginBottom: "2rem", marginTop: "1.5rem", fontSize: "1rem" }}>
+                <h1 className="eventsdis" style={{ fontWeight: "bold" }}>
                     Events on {selectedDate ? `${selectedDate} ${new Date(selectedYear, selectedMonth - 1).toLocaleString('en', { month: 'long' })}` : 'Selected Date'}
                 </h1>
                 {events.length > 0 ? (

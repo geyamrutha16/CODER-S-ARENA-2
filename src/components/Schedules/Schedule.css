@@ -91,6 +91,12 @@ select:hover {
   color: white;
 }
 
+.calhead {
+  margin-bottom: "2rem";
+  margin-top: "1.75rem";
+  font-size: "1rem";
+}
+
 .event-item1 {
   width: 80%; /* Keeping percentage */
   padding: 0.625rem; /* 10px */
@@ -101,9 +107,20 @@ select:hover {
   color: rgb(0, 0, 0);
 }
 
+.yearh {
+  margin-top: "1.75rem";
+  margin-bottom: "2.375rem";
+}
+
+.eventsdis {
+  margin-bottom: "2rem";
+  margin-top: "1.5rem";
+  font-size: "1rem";
+}
+
 @media (max-width: 48rem) {
   select {
-    margin: 0;
+    margin-block: 3px;
   }
 
   .days-grid {
@@ -116,45 +133,46 @@ select:hover {
     flex-direction: column;
     padding: 0.525rem; /* 10px */
     margin: 0.8125rem; /* 5% */
-    margin-top: 5rem; /* 25% */
+    margin-top: 4rem; /* 25% */
     background-image: url(../../assets/mobilegif.gif);
   }
 
   .yearh {
-    margin-top: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
   }
 
   .year-month,
   .month-display,
   .events-display {
     width: 100%; /* Keeping percentage */
-    margin: 0rem 0; /* 10px 0 */
   }
 
   .month-display {
-    height: 40%; /* Keeping percentage */
+    height: 50%; /* Keeping percentage */
     width: 100%; /* Keeping percentage */
-    padding-bottom: 0.2rem; /* 5% */
-    padding-left: 1rem; /* 20% */
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff; /* 20% */
   }
 
   .event-item,
   .event-item1 {
-    width: 80%; /* Keeping percentage */
+    width: 80%;
   }
 
   .select {
-    padding: 0.5rem; /* 10px */
+    padding: 0.1rem; /* 10px */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .calhead {
-    margin-top: 0.0725rem; /* 1% */
-    margin-bottom: 0.0725rem; /* 1% */
-    margin-right: 1.25rem; /* 20% */
+    margin-top: 0.5rem; /* 1% */
+    margin-bottom: 0.5rem; /* 1% */
     font-size: 1rem;
+    text-align: center;
   }
 
   .events-display {
@@ -166,6 +184,7 @@ select:hover {
 
   .days-grid {
     padding-left: 0;
+    font-size: 0.5rem;
   }
 
   .vr {
@@ -176,7 +195,7 @@ select:hover {
 
 @media (max-width: 480px) {
   .day {
-    padding: 0.3125rem; /* 5px */
+    padding: 0.2125rem; /* 5px */
     font-size: 0.775rem; /* 14px */
     background-image: none;
   }

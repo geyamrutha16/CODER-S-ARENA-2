@@ -1,64 +1,66 @@
 import React from 'react';
 import './Instructors.css';
+import Ajay from '../About/images/Ajay.jpeg';
 
 const Instructors = () => {
     const slides = [
         {
-            imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
+            imgSrc: Ajay,
             title1: "President",
-            title2: "Card title 1",
+            title2: "A. Ajay",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Vice President",
-            title2: "Card title 2",
+            title2: "P. Geyamrutha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Secretary",
-            title2: "Card title 3",
+            title2: "G. Varshitha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
             title1: "Treasurer",
-            title2: "Card title 4",
+            title2: "CH. Ganesh",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 5",
+            title1: "Designer",
+            title2: "M. Jishnu Vardhan",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 6",
+            title1: "Web Master",
+            title2: "K. Sai Rekha",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 7",
+            title1: "Web Master",
+            title2: "Y. Chandini",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 8",
+            title1: "Event Manager",
+            title2: "N. Gayathri",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 9",
+            title1: "Event Manager",
+            title2: "Mohammed Zaid",
         },
         {
             imgSrc: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-            title1: "Member",
-            title2: "Card title 10",
+            title1: "Event Manager",
+            title2: "N. Divya",
         }
     ];
 
     return (
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" style={{ backgroundColor: "#eef9ff", width: "100%" }}>
             <h1 style={{ fontWeight: 'bold', textAlign: "center", paddingTop: "40px", fontSize: "2rem" }}>Our Team</h1>
-            <div className="carousel-indicators">
+            <div className="carousel-indicators"
+                style={{ marginTop: "20px" }}>
                 {slides.map((_, index) => (
                     <button
                         key={index}
@@ -80,11 +82,11 @@ const Instructors = () => {
                         style={{ width: '500px', height: "auto" }}
                     >
                         <div className="icardbox" >
-                            <div className="icard" style={{ height: "20rem", backgroundColor: "white", width: "30rem", marginLeft: "10px" }}>
-                                <img src={slide.imgSrc} className="icard-img-top" alt="..." style={{ width: "250px", height: "300px", borderRadius: "50%", paddingTop: "10px" }} />
+                            <div className="icard">
+                                <img src={slide.imgSrc} className="icard-img-top" alt="..." style={{ width: "300px", height: "300px", borderRadius: "50%", paddingTop: "10px" }} />
                                 <div className="icard-body">
                                     <h1 className="icard-title" style={{ fontWeight: "bold", letterSpacing: "4px" }}>{slide.title1}</h1>
-                                    <h1 className="icard-title" style={{ textAlign: "center" }}>{slide.title2}</h1>
+                                    <h1 className="icard-title" style={{ textAlign: "center", marginBlock: "1rem" }}>{slide.title2}</h1>
                                 </div>
                             </div>
                         </div>
