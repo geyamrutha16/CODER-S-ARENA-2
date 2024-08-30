@@ -48,13 +48,10 @@ img {
 }
 
 @media (max-width: 768px) {
-  .icardbox {
-    margin-left: 0%;
-  }
   .icard {
     padding-block: 5px;
     padding-inline: 0px;
-    margin-right: 20%;
+    /* margin-right: 20%; */
   }
   #item {
     width: 300px;
@@ -62,13 +59,10 @@ img {
 }
 
 @media (max-width: 480px) {
-  .icardbox {
-    margin-left: 0%;
-  }
   .icard {
     padding-block: 5px;
     padding-inline: 0px;
-    margin-right: 20%;
+    /*  margin-right: 20%; */
   }
   #item {
     width: 300px;
