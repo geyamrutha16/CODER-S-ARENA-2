@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css'
+import Button from './Button';
 import "./Footer.css"; // Assuming you have placed the CSS in this file
 
 const Footer = () => {
@@ -32,19 +33,6 @@ const Footer = () => {
                                 <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
                                 <p>Stay ahead and never miss a moment with our club! Join now to get all the latest updates,
                                     exclusive content, and be the first to know about upcoming events.</p>
-                                <form
-                                    action="/"
-                                    className="f_subscribe_two mailchimp"
-                                    method="post"
-                                    noValidate
-                                >
-                                    {/*                                     <input type="text" name="EMAIL" className="form-control memail" placeholder="Email" />
- */}                                    <button className="btn btn_get btn_get_two" type="submit">
-                                        <Link to="/join" onClick={() => { setOpen1(false); handleLinkClick(); }} style={{ color: "white" }}>Join Now</Link>
-                                    </button>
-                                    <p className="mchimp-errmessage" style={{ display: "none" }}></p>
-                                    <p className="mchimp-sucmessage" style={{ display: "none" }}></p>
-                                </form>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -55,8 +43,8 @@ const Footer = () => {
                             >
                                 <h3 className="f-title f_600 t_color f_size_18" >Resources</h3>
                                 <ul className="list-unstyled f_list">
-                                    <li><a href="/">Java</a></li>
-                                    <li><a href="/">Python</a></li>
+                                    <li><Link to="/resources" onClick={() => { setOpen1(false); handleLinkClick(); }}>Java</Link></li>
+                                    <li><Link to="/resources" onClick={() => { setOpen1(false); handleLinkClick(); }}>Python</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,8 +56,8 @@ const Footer = () => {
                             >
                                 <h3 className="f-title f_600 t_color f_size_18">Updates</h3>
                                 <ul className="list-unstyled f_list">
-                                    <li><a href="/">Events</a></li>
-                                    <li><a href="/">Schedule</a></li>
+                                    <li><Link to="/events" onClick={() => { setOpen1(false); handleLinkClick(); }}>Events</Link></li>
+                                    <li><Link to="/calendar" onClick={() => { setOpen1(false); handleLinkClick(); }}>Calendar</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,10 +69,16 @@ const Footer = () => {
                             >
                                 <h3 className="f-title f_600 t_color f_size_18">Contact Team</h3>
                                 <div className="f_social_icon">
-                                    <a href="/"><i className="fa fa-instagram"></i></a>
-                                    <a href="/"><i className="fa fa-twitter"></i></a>
-                                    <a href="/"><i className="fa fa-linkedin"></i></a>
-                                    <a href="/"><i className="fa fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/necg_codersclub/" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-instagram"></i>
+                                    </a>
+                                    <a href="https://chat.whatsapp.com/GHzoEjdvXp14rE9LClpDCo" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/@necgcodersclub?si=bsJUn9kTBEOB" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-youtube"></i>
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
