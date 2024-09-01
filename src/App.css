@@ -193,7 +193,7 @@ html {
   font-weight: 600;
   position: absolute;
   bottom: 2.3375rem; /* 55px to rem */
-  left: 3.325rem; /* 50px to rem */
+  left: 4.825rem; /* 50px to rem */
   color: black;
   transform-style: preserve-3d;
   transition: ease all 2.3s;
@@ -208,11 +208,11 @@ html {
   position: absolute;
   top: 2.75rem; /* 55px to rem (55/20) */
   right: 2.5rem; /* 50px to rem (50/20) */
-  color: white;
+  color: rgb(0, 0, 0);
   transform-style: preserve-3d;
   transition: ease all 2.3s;
   z-index: 4;
-  font-size: 0.5rem; /* Already in em, no need for conversion */
+  font-size: 0.8rem; /* Already in em, no need for conversion */
   transform: translateZ(0);
 }
 
