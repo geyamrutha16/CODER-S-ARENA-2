@@ -1,7 +1,7 @@
 .calendar {
   margin: 1.25rem; /* 10% */
   display: flex;
-  height: 75vh;
+  height: 75git statusvh;
   justify-content: center;
   padding: 1.25rem; /* 20px */
   margin-top: 6.375rem; /* 12% */
@@ -190,6 +190,9 @@ select:hover {
   .vr {
     display: none;
     margin: 0;
+  }
+  .event-item {
+    margin-top: 0.29rem; /* 5px */
   }
 }
 
