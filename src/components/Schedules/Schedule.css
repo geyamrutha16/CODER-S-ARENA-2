@@ -1,7 +1,7 @@
 .calendar {
   margin: 1.25rem; /* 10% */
   display: flex;
-  height: 75git statusvh;
+  height: 80vh;
   justify-content: center;
   padding: 1.25rem; /* 20px */
   margin-top: 6.375rem; /* 12% */
@@ -121,6 +121,10 @@ select:hover {
 @media (max-width: 48rem) {
   select {
     margin-block: 3px;
+  }
+
+  .calendar {
+    height: 75vh;
   }
 
   .days-grid {
