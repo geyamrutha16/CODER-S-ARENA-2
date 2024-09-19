@@ -4,6 +4,8 @@ import '../../App.css';
 
 const eventsData = {
     "2024-08-30": [{ id: 1, name: "Club Inauguration" }],
+    "2024-09-13": [{ id: 2, name: "Conquer Code" }],
+    "2024-09-20": [{ id: 3, name: "Code Combat" }],
 };
 
 const CalendarComponent = () => {
@@ -52,7 +54,7 @@ const CalendarComponent = () => {
                             fontSize: '1.0875rem',
                             color: '#333',
                         }}>
-                        {[2022, 2023, 2024, 2025].map(year => (
+                        {[2024, 2025].map(year => (
                             <option key={year} value={year}
                                 className="custom-option">{year}</option>
                         ))}

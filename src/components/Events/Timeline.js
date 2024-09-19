@@ -29,6 +29,7 @@ const Timeline = () => {
     }, []);
 
     const events = [
+        { date: "13-09-2024", title: "Conquer Code", description: "A Quiz competition to check your debugging skills..!" },
         { date: "30-08-2024", title: "Club Inauguration", description: "Kickstart Your Coding Journey: Join Us for the Grand Inauguration of the Coder's Club!" },
     ];
 
