@@ -11,7 +11,7 @@ const JoinNow = () => {
                         <i className="fas fa-envelope"></i>
                     </div>
                     <h1>Join Now</h1>
-                    <p style={{ textAlign: "center" }}> Join the Coder's Club Today and Unlock a World of Coding Opportunities! </p>
+                    <p style={{ textAlign: "center" }}> Join Coder's Club Today and Unlock a World of Coding Opportunities! </p>
                 </div>
                 <div className="form-input">
                     <label htmlFor="email"></label>
