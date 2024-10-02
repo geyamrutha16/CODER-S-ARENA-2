@@ -163,6 +163,7 @@ select:hover {
   .event-item,
   .event-item1 {
     width: 80%;
+    padding-bottom: 20px;
   }
 
   .select {
