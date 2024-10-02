@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Coder's Club 2024 # Your app name
+    env: static
+    buildCommand: npm install
+    startCommand: npm run build
+    staticPublishPath: build
+    routes:
+      - src: /(.*)
+        dest: /
